@@ -5,9 +5,14 @@ public class AdditionOfNaturalNumbers {
         Scanner scan = new Scanner(System.in);
         int num =scan.nextInt();
 
+int i =1,sum=0;
 
-     
+while(i<=num){
+    sum= sum+i;
+    i++;
 
+}
+        System.out.println(sum);
     }
 
 
